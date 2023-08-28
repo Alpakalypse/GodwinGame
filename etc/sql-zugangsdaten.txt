@@ -1,0 +1,4 @@
+$server = "localhost";
+$user = "php-user";
+$pass = "DS5JiWHLqrYsPsJS";
+$database = "godwin_game";

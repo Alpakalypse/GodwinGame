@@ -1,0 +1,29 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto;
+  grid-gap: 1rem;
+}
+.grid h1 {
+  grid-column: 1/13;
+  background-color: whitesmoke;
+}
+.grid #regeln {
+  grid-column: 1/13;
+  background-color: whitesmoke;
+}
+.grid #start {
+  grid-column: 1/13;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.grid #buttons {
+  grid-column: 1/13;
+  background-color: whitesmoke;
+}/*# sourceMappingURL=rules.css.map */
